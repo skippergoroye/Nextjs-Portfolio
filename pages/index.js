@@ -57,7 +57,7 @@ export default function Home() {
             <h3 className="text-5xl py-2 md:text-3xl">Full Stack Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 max-w-lg mx-auto">
               Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              needs. Join me down below and let&apos;s get cracking!
             </p>
           </div>
 
@@ -87,7 +87,7 @@ export default function Home() {
             <h3 className="text-3xl py-1">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -105,7 +105,7 @@ export default function Home() {
           <div className="lg:flex gap-10">
              {/* one  */}
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={design} width={100} height={100} className="mx-auto" />
+              <Image src={design} width={100} height={100} alt="design" className="mx-auto" />
               <h3> Beautiful Designs</h3>
               <p className="py-2">Creating elegant designs suited for your network theory</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -118,7 +118,7 @@ export default function Home() {
 
              {/* two  */}
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={consulting} width={100} height={100} className="mx-auto" />
+              <Image src={consulting} width={100} height={100} className="mx-auto" alt="design"  />
               <h3> Beautiful Designs</h3>
               <p className="py-2">Creating elegant designs suited for your network theory</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -130,7 +130,7 @@ export default function Home() {
 
             {/* three  */}
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={code} width={100} height={100} className="mx-auto" />
+              <Image src={code} width={100} height={100} alt="design"  className="mx-auto" />
               <h3> Beautiful Designs</h3>
               <p className="py-2">Creating elegant designs suited for your network theory</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -149,7 +149,7 @@ export default function Home() {
           <h3 className="text-3xl py-1">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -163,22 +163,22 @@ export default function Home() {
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <Image src={web1} className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
+              <Image src={web1} alt="design" className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web2} className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
+              <Image src={web2} alt="design" className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web3} className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
+              <Image src={web3} alt="design" className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web4} className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
+              <Image src={web4} alt="design" className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web5} className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
+              <Image src={web5} alt="design" className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web6} className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
+              <Image src={web6} alt="design" className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
             </div>
           </div>
         </section>
