@@ -180,7 +180,7 @@ export default function Home() {
 
             {/* three  */}
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={code} width={100} height={100} alt="design"  className="mx-auto" />
+              <git src={code} width={100} height={100} alt="design"  className="mx-auto" />
               <h3> Beautiful Designs</h3>
               <p className="py-2">Creating elegant designs suited for your network theory</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
