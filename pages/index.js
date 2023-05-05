@@ -120,7 +120,7 @@ export default function Home() {
       id: 6,
       src: nextjs,
       title: "Next JS",
-      style: "shadow-white",
+      style: "shadow-black",
     },
     {
       id: 7,
@@ -308,15 +308,16 @@ export default function Home() {
               <Image src={web6} alt="design" className="rounded-lg object-cover"  width={'100%'} height={'100%'} />
             </div>
           </div> */}
+          {/* bg-gradient-to-b from-black to-gray-800 */}
 
 
               <div
                 name="portfolio"
-                className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+                className=" w-full text-white md:h-screen"
               >
                 <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                   <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+                    <p className="text-4xl text-black font-bold inline border-b-4 border-gray-500">
                       Portfolio
                     </p>
                     <p className="py-6">Check out some of my work right here</p>
@@ -354,11 +355,11 @@ export default function Home() {
         <section>
             <div
             name="experience"
-            className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+            className="w-full h-screen"
           >
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
               <div>
-                <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+                <p className="text-4xl text-black font-bold border-b-4 border-gray-500 p-2 inline">
                   Experience
                 </p>
                 <p className="py-6">These are the technologies I&apos;ve worked with</p>
@@ -391,11 +392,11 @@ export default function Home() {
         <section>
         <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-full h-screen p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl text-black font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
@@ -405,7 +406,7 @@ export default function Home() {
           <form
             // action="https://getform.io/f/a710452e-4cca-4957-b363-ecea825ea566"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className=" flex flex-col w-full md:w-1/2 shadow-2xl border p-6 rounded-2xl"
           >
             <input
               type="text"
