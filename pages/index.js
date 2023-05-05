@@ -100,6 +100,7 @@ export default function Home() {
 
           {/* Profile Here  */}
           <div className="text-center p-10">
+          <h1 className="text-5xl py-2 md:text-3xl text-red-500">This portfolio is still under construction</h1>
             <h2 className="text-5xl py-2 font-medium text-teal-500 md:text-6xl">
               Oluwatosin Adegoroye
             </h2>
@@ -247,7 +248,7 @@ export default function Home() {
                   <div className="grid sm:grid-cols-4 md:grid-cols-3 gap-6 px-12 sm:px-0">
                     {portfolios.map(({ id, src }) => (
                       <div key={id} className="shadow-md shadow-gray-600 rounded-1g">
-                        <img
+                        <Image
                           src={src}
                           alt="design"
                           width={'100%'} height={'100%'}
